@@ -1,0 +1,44 @@
+
+h1{
+	text-align: center;
+}
+table{
+		text-align:center;
+		font-family: 'Aclonica', sans-serif;
+		
+		
+		}
+		
+table.table-bordered{
+    border:3px solid blue;
+    margin-top:20px;
+	text-align: center;
+	
+  }
+table.table-bordered > thead > tr > th{
+    border:3px solid blue;
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid blue;
+}
+thead{
+		text-align: center;
+	
+}
+tr{
+	height:205px;
+}
+
+body{
+	background-color: teal;
+	
+}
+
+.droptarget {
+              float: left; 
+              width: 90%; 
+              height: 250px;
+              margin: 15px;
+              padding: 10px;
+              border: 1px solid #aaaaaa;
+  }
