@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- Memory Game -->
+<!-- Javascript to control flipping of images -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Memory Game</title>
+      <link rel="stylesheet" href="memoryCss.css">
+	  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	   <link rel="stylesheet" href="table.css">
+	    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&display=swap">
+
+   </head>
+
+<body>
+   <div> <h1>Yellowstone Memory Game</h1>
+
+   <br><br></div>
+   <table class="table">
+       <tbody class = "table"><tr class="success" ><td><img src="memImages/CardBack.png"; id="tblArr0"; onClick="deClick(this.id);changeimage('tblArr0',tblArr[0]); "
+		onClick="document.getElementById('tblArr0').src='tblArr[0]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr1"; onClick="deClick(this.id);changeimage('tblArr1',tblArr[1]); "
+		onClick="document.getElementById('tblArr1').src='tblArr[1]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr2"; onClick="deClick(this.id);changeimage('tblArr2',tblArr[2]); "
+		onClick="document.getElementById('tblArr2').src='tblArr[2]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr3"; onClick="deClick(this.id);changeimage('tblArr3',tblArr[3]); "
+		onClick="document.getElementById('tblArr3').src='tblArr[3]';"draggable="true" ondragstart="dragstart_handler(event)"></td></tr>
+
+		<tr class="danger"><td><img src="memImages/CardBack.png"; id="tblArr4"; onClick="deClick(this.id);changeimage('tblArr4',tblArr[4]); "
+		onClick="document.getElementById('tblArr4').src='tblArr[4]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr5"; onClick="deClick(this.id);changeimage('tblArr5',tblArr[5]); "
+		onClick="document.getElementById('tblArr5').src='tblArr[5]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr6"; onClick="deClick(this.id);changeimage('tblArr6',tblArr[6]); "
+		onClick="document.getElementById('tblArr6').src='tblArr[6]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr7"; onClick="deClick(this.id);changeimage('tblArr7',tblArr[7]); "
+		onClick="document.getElementById('tblArr7').src='tblArr[7]';"draggable="true" ondragstart="dragstart_handler(event)"></td></</tr>
+
+		<tr class="info"><td><img src="memImages/CardBack.png"; id="tblArr8"; onClick="deClick(this.id);changeimage('tblArr8',tblArr[8]); "
+		onClick="document.getElementById('tblArr8').src='tblArr[8]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr9"; onClick="deClick(this.id);changeimage('tblArr9',tblArr[9]); "
+		onClick="document.getElementById('tblArr9').src='tblArr[9]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr10"; onClick="deClick(this.id);changeimage('tblArr10',tblArr[10]); "
+		onClick="document.getElementById('tblArr10').src='tblArr[10]';"draggable="true" ondragstart="dragstart_handler(event)"></td>
+		<td><img src="memImages/CardBack.png"; id="tblArr11"; onClick="deClick(this.id);changeimage('tblArr11',tblArr[11]); "
+		onClick="document.getElementById('tblArr11').src='tblArr[11]';"draggable="true" ondragstart="dragstart_handler(event)"></td></</tr>
+
+		</tbody>
+		</table>
+
+
+	<div id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)"style="height:280px;width:100%;">Drop Zone</div>
+<p id = "success"></p>	
+  <script src= "memoryGameJS3.js"></script>
+</body>
+</html>
