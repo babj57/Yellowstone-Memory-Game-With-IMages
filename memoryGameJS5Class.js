@@ -30,12 +30,12 @@
 		  this.cardBpath = Bpath;
 		  
 	  }
-	  var cardA= new Card("memImages/CardBack.png","memImages/OFYellows.png");
-	  var cardB = new Card("memImages/CardBack.png","memImages/OGImg.png");
-	  var cardC = new Card("memImages/CardBack.png","memImages/MSYell.png");
-	  var cardD = new Card("memImages/CardBack.png","memImages/OFInn.png");
-	  var cardE = new Card("memImages/CardBack.png","memImages/GCYellow.png");
-	  var cardF = new("memImages/CardBack.png","memImages/YSLake.png");
+	  var cardA= new Card("memImages/OFYellows.png","memImages/CardBack.png");
+	  var cardB = new Card("memImages/OGImg.png","memImages/CardBack.png");
+	  var cardC = new Card("memImages/MSYell.png","memImages/CardBack.png");
+	  var cardD = new Card("memImages/OFInn.png","memImages/CardBack.png");
+	  var cardE = new Card("memImages/GCYellow.png","memImages/CardBack.png");
+	  var cardF = new("memImages/YSLake.png","memImages/CardBack.png");
 	  
 	  var pic=0;
 	  var pic=1;
